@@ -6,6 +6,7 @@
   tasks:
     - name: update maintenance
       copy:
-        scr: Maintenance .html
+        src: Maintenance.html   # Fixed 'src' typo
         dest: /var/www/html/index.html
+
 ...
